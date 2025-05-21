@@ -1,0 +1,7 @@
+services:
+  word-processor-server:
+    build: .
+    ports:
+      - "6002:80"
+    environment:
+      - SYNCFUSION_LICENSE_KEY=ORg4AjUWIQA/Gnt2XVhhQlJHfV5AQmBIYVp/TGpJfl96cVxMZVVBJAtUQF1hTH5Sd0JiWntWc3VXR2NV
